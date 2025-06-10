@@ -23,12 +23,12 @@ body {
 
 /* ---------------------------------headings-------------------------------------- */
 .service-heading {
-    width: 300px;
-    height: 81px;
-    background-image: url(../assets/with-Testimonials-removebg-preview.png);
-    background-repeat: no-repeat;
-    background-position: -4px 21px;
-    background-size: 302px;
+  width: 300px;
+  height: 81px;
+  background-image: url(../assets/with-Testimonials-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: -4px 21px;
+  background-size: 302px;
 }
 
 /* ------------------- header ------------------ */
@@ -54,7 +54,7 @@ header {
     rgba(254, 180, 123, 0.452),
     rgba(255, 205, 112, 0.502)
   );
-  position: fixed;
+  position: fixed !important;
   z-index: 1000;
   width: 100%;
   text-align: center;
@@ -441,7 +441,7 @@ main {
   height: 73px;
   background-image: url(../assets/with-Testimonials-removebg-preview.png);
   background-repeat: no-repeat;
-  background-position: 4px -193px;
+  background-position: 15px -193px;
   background-size: 272px auto;
 }
 
@@ -634,7 +634,7 @@ main {
   height: 59px;
   background-image: url(../assets/with-Testimonials-removebg-preview.png);
   background-repeat: no-repeat;
-  background-position: 3px -68px;
+  background-position: 25px -68px;
   background-size: 269px auto;
 }
 .carousal-section {
@@ -1042,9 +1042,8 @@ footer .containerr {
   padding: 5px 10px;
   border-radius: 5px;
 }
-.review-head{
+.review-head {
   padding: 0rem 3rem;
-
 }
 
 .Review_wrapper {
@@ -1165,8 +1164,8 @@ footer .containerr {
   height: 103px;
   background-image: url(../assets/with-Testimonials-removebg-preview.png);
   background-repeat: no-repeat;
-  background-position: -40px -342px;
-  background-size: 370px auto;
+  background-position: -27px -312px;
+  background-size: 342px;
 }
 .testimonial-heading {
   text-align: center;
